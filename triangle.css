@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    position: relative;
+    width: 0;
+    height: 0;
+    border:none;
+    /* border-radius: 50%; */
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom:200px solid red ;
+    left: 20px;
+    transform: rotate(90deg);
+}
+.right{
+    position: absolute;
+    width: 200px;
+    height: 0;
+    border:none;
+    border-top: 100px solid transparent;
+    border-right:200px solid red ;
+    border-bottom: 100px solid transparent;
+    top: 0;
+    left: 220px;
+   
+    /* transform: rotate(90deg); */
+}
